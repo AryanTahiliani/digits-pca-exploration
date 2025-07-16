@@ -27,7 +27,7 @@ It’s a purely educational exercise—no business use-case—meant to showcase 
 
 ## Gym Dataset Regression with PCA
 
-- **Dataset:** `GYM.csv` (regression target unspecified in notebook)  
+- **Dataset:** `GYM.csv` 
 - **Cleaning:** Dropped duplicates; imputed missing values with column means  
 - **Models:**
   1. **Baseline:** `StandardScaler` → `LinearRegression` ⇒ RMSE = *rmse_1*  
@@ -50,12 +50,6 @@ It’s a purely educational exercise—no business use-case—meant to showcase 
    - 2D scatter of first two PCs  
 6. **Reconstruction & loss**: measure variance lost when projecting back from 2D  
 
----
-
-### Conclusion for Gym Dataset
-
-- **Baseline RMSE:** X.XXX  
-- **PCA RMSE:**      Y.YYY  
-- **Improvement:**   Δ = Z.ZZZ  
+--
 
 Since the PCA‐enhanced model achieved a lower RMSE, applying PCA helped by removing redundant information and reducing overfitting on the Gym data.
